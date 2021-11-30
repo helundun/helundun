@@ -1,0 +1,82 @@
+         let datas =
+
+[{
+	"categoryName": "客流控制",
+	"content": [{
+		"tagName": "fire.card2",
+		"contentNum": 1,
+		"content": "安排人员携带客服备品至站厅扶梯口（南北各1人）、进出站闸机（南北各1人）、自动售票机（南北各1人）、站台（上下行各1人）引导乘客，维持秩序，盯控现场情况；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "客流控制",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card2",
+		"contentNum": 2,
+		"content": " 视情况改变站台至站厅电扶梯方向，将站台至站厅4部电扶梯均打至向上的状态，引导通过站台中部的楼梯进入站台区域；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "客流控制",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card2",
+		"contentNum": 3,
+		"content": "车站放缓南北票厅的售卖车票速度，延长南端安检机S型铁马，增加乘客走行距离。",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "客流控制",
+		"cardType": 1
+	}]
+}, {
+	"categoryName": "乘客服务",
+	"content": [{
+		"tagName": "fire.card1",
+		"contentNum": 1,
+		"content": "根据客流控制情况在各出入口张贴告示（保洁张贴，客值检查确认）；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "乘客服务",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card1",
+		"contentNum": 2,
+		"content": "安排安检和驻站人员、支援人员等在关键位置进行乘客疏导和解释工作；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "乘客服务",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card1",
+		"contentNum": 3,
+		"content": "大客流期间值站、客值加强出站客流引导，及时维修AGM设备，确保设备正常，加快乘客出站速度；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "乘客服务",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card1",
+		"contentNum": 4,
+		"content": "车控室需要加强广播，安抚乘客情绪，引导乘客分散候车及注意安全并加强监护，一有情况应立即汇报；",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "乘客服务",
+		"cardType": 1
+	}, {
+		"tagName": "fire.card1",
+		"contentNum": 5,
+		"content": "当客流过大需要实施客流控制时，及时按照《车站广播及文字信息管理标准》播放广播。",
+		"locationId": 24,
+		"domainId": 14,
+		"title": "乘客服务",
+		"cardType": 1
+	}]
+}]
+
+   for (data of datas ){
+       console.log(data)
+       let temp = data.content;
+       for (item of temp){
+           console.log(item.content)
+
+       }
+   }
